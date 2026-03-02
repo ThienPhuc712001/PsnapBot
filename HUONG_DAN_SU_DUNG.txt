@@ -1,0 +1,82 @@
+===============================================
+PSnapBOT - Local Persistent Development Agent
+HUỚNG DẪN SỬ DỤNG HOÀN CHỈNH
+===============================================
+
+✅ CÀI ĐẶT HOÀN TẤT:
+- Python 3.14 đã được tìm thấy và cài đặt
+- Tất cả dependencies đã được cài đặt
+- API key AgentRouter đã được cấu hình
+- Hệ thống sẵn sàng hoạt động
+
+🔑 CẤU HÌNH API:
+- API Key: sk-7AUvBXEXQSoq6X13lyKREfCamXU7jYEDWsynfU52fXe5H52g
+- Endpoint: https://agentrouter.org/v1
+- Model: glm-4.6
+- Status: Đã cấu hình và sẵn sàng
+
+🚀 CÁCH CHẠY PSnapBOT:
+
+1. CHẠY TRỰC TIẾP:
+   py main.py
+
+2. CHẠY MỘT LỆNH:
+   py main.py "lệnh của bạn"
+
+3. DÙNG BATCH FILE:
+   run_psnappbot.bat
+
+4. KIỂM TRA TRẠNG THÁI:
+   py main.py --status
+
+5. XEM THÔNG TIN AGENT:
+   py main.py --info
+
+📋 TÍNH NĂNG ĐÃ CÀI ĐẶT:
+✅ Memory management với SQLite database
+✅ Project type detection (tự động nhận diện dự án)
+✅ File operations và search
+✅ Shell command execution (an toàn)
+✅ Build-fix loop logic (tự động sửa lỗi)
+✅ Agent coordination và planning
+✅ API configuration (AgentRouter + GLM-4.6)
+✅ CLI interface hoàn chỉnh
+
+🔧 CÁC FILE QUAN TRỌNG:
+- config_agentrouter.py: Cấu hình API AgentRouter
+- config_user.py: Cấu hình người dùng
+- main.py: Chương trình chính
+- run_psnappbot.bat: Script khởi động
+- setup_agentrouter.bat: Script cài đặt
+
+⚠ LƯU Ý VỀ API:
+- Nếu gặp lỗi 401, liên hệ AgentRouter support
+- Discord: https://discord.com/invite/V6kaP6Rg44
+- PSnapBOT hoạt động offline cho các tác vụ cơ bản
+
+🎯 VÍ DỤ SỬ DỤNG:
+1. Tự động sửa lỗi build:
+   py main.py "fix build error"
+
+2. Tìm kiếm trong code:
+   py main.py "tìm hàm calculate trong file utils.py"
+
+3. Tạo file mới:
+   py main.py "tạo class Calculator với methods"
+
+4. Phân tích dự án:
+   py main.py "phân tích cấu trúc dự án này"
+
+📞 HỖ TRỢ:
+- Kiểm tra file HUONG_DAN_API.md để biết thêm chi tiết
+- PSnapBOT tự động lưu memory và học từ các lần sử dụng
+- Hệ thống build-fix loop có thể thử tối đa 5 lần
+
+🎉 CHÚC MỪNG BẠN ĐÃ CÀI ĐẶT THÀNH CÔNG!
+PSnapBOT sẵn sàng trở thành trợ lý phát triển mã nguồn thông minh của bạn.
+
+===============================================
+Tạo bởi: PSnapBOT Installation System
+Ngày: 02/03/2026
+Phiên bản: 1.0.0
+===============================================

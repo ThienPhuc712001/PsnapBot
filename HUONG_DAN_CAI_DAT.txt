@@ -1,0 +1,54 @@
+🚀 HƯỚNG DẪN CÀI ĐẶT PSnapBOT CHI TIẾT
+
+Vì có vấn đề với Python alias, hãy làm theo các bước sau:
+
+📋 BƯỚC 1: KIỂM TRA PYTHON
+Mở Command Prompt và gõ:
+```
+where python
+where python3
+```
+Ghi lại đường dẫn đầy đủ của Python.
+
+📋 BƯỚC 2: CÀI ĐẶT DEPENDENCIES
+Sử dụng đường dẫn đầy đủ của Python, ví dụ:
+```
+cd d:\PsnapBot\dev_agent
+"C:\Users\cntt.tts13\AppData\Local\Microsoft\WindowsApps\python3.exe" -m pip install -r requirements.txt
+```
+
+📋 BƯỚC 3: KIỂM TRA CÀI ĐẶT
+```
+"C:\Users\cntt.tts13\AppData\Local\Microsoft\WindowsApps\python3.exe" test_agent.py
+```
+
+📋 BƯỚC 4: CHẠY PSnapBOT
+```
+"C:\Users\cntt.tts13\AppData\Local\Microsoft\WindowsApps\python3.exe" main.py
+```
+
+🔧 NẾU CÁCH TRÊN KHÔNG HOẠT ĐỘNG:
+
+1. **Tắt Python App Alias:**
+   - Mở Settings > Apps > Advanced app settings > App execution aliases
+   - Tắt "App installer" cho Python
+
+2. **Sử dụng PowerShell:**
+   ```
+   Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+   cd d:\PsnapBot\dev_agent
+   python3 -m pip install -r requirements.txt
+   python3 main.py
+   ```
+
+3. **Tạo biến môi trường:**
+   - Thêm đường dẫn Python vào PATH
+   - Khởi động lại Command Prompt
+
+📞 LIÊN HỆ:
+Nếu vẫn không được, hãy:
+1. Chụp ảnh lỗi
+2. Gửi đường dẫn Python từ "where python"
+3. Mô tả bước bạn đã thử
+
+PSnapBOT sẽ hoạt động sau khi cài đặt thành công!
