@@ -16,8 +16,8 @@ def test_different_endpoints():
     """Test different AgentRouter endpoints"""
     
     endpoints = [
-        "https://agentrouter.org/v1/chat/completions",
-        "https://agentrouter.org/api/v1/chat/completions", 
+        "http://127.0.0.1:6969/v1/chat/completions",
+        "http://127.0.0.1:6969/api/v1/chat/completions",
         "https://api.agentrouter.org/v1/chat/completions",
         "https://agentrouter.org/chat/completions"
     ]

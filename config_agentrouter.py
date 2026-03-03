@@ -10,7 +10,7 @@ import os
 
 # AgentRouter API Configuration
 API_KEY = "sk-7AUvBXEXQSoq6X13lyKREfCamXU7jYEDWsynfU52fXe5H52g"  # Leave empty if using their free tier
-API_BASE_URL = "http://127.0.0.1:6969"
+API_BASE_URL = "http://127.0.0.1:6969/v1"
 API_MODEL = "glm-4.6"
 API_TIMEOUT = 60  # Longer timeout for AgentRouter
 API_MAX_RETRIES = 5  # More retries for stability

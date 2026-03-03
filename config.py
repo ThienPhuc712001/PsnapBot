@@ -4,7 +4,7 @@ Configuration for PSnapBOT - Local Persistent Development Agent
 import os
 
 # API Configuration
-API_BASE_URL = "https://agentrouter.org/v1/chat/completions"
+API_BASE_URL = "http://127.0.0.1:6969/v1/chat/completions"
 API_MODEL = "glm-4.6"
 API_TIMEOUT = 30
 API_MAX_RETRIES = 3

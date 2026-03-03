@@ -118,9 +118,9 @@ Components:
             result = agent.process_request(args.command)
             
             if result["success"]:
-                print(f"✅ {result['message']}")
+                print(f"[SUCCESS] {result['message']}")
             else:
-                print(f"❌ {result['message']}")
+                print(f"[ERROR] {result['message']}")
                 sys.exit(1)
             
             # Show additional details if available

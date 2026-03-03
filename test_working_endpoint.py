@@ -85,8 +85,8 @@ if __name__ == "__main__":
             
             # Replace the base_url
             new_content = content.replace(
-                "base_url = 'https://agentrouter.org/v1'",
-                "base_url = 'https://agentrouter.org'"
+                "base_url = 'http://127.0.0.1:6969/v1'",
+                "base_url = 'http://127.0.0.1:6969'"
             )
             
             with open('config_agentrouter.py', 'w') as f:

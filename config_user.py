@@ -12,7 +12,7 @@ import os
 API_KEY = "sk-7AUvBXEXQSoq6X13lyKREfCamXU7jYEDWsynfU52fXe5H52g"
 
 # Alternative API Base URL (if different from default)
-API_BASE_URL = "https://agentrouter.org/v1"
+API_BASE_URL = "http://127.0.0.1:6969/v1"
 
 # Model to use
 API_MODEL = "glm-4.6"

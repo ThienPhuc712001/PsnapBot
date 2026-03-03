@@ -17,7 +17,7 @@ Tìm các dòng sau và thay thế:
 API_KEY = "sk-7AUvBXEXQSoq6X13lyKREfCamXU7jYEDWsynfU52fXe5H52g"
 
 # Nếu dùng endpoint khác:
-API_BASE_URL = "https://agentrouter.org/v1"
+API_BASE_URL = "http://127.0.0.1:6969/v1"
 
 
 ```
@@ -45,7 +45,7 @@ API_BASE_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-p
 ### **4. AgentRouter (GLM-4.6)**
 ```python
 API_KEY = "sk-7AUvBXEXQSoq6X13lyKREfCamXU7jYEDWsynfU52fXe5H52g"
-API_BASE_URL = "https://agentrouter.org/v1"
+API_BASE_URL = "http://127.0.0.1:6969/v1"
 ```
 
 ## ⚙️ Sau khi cấu hình:

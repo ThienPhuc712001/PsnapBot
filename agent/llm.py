@@ -6,12 +6,12 @@ import requests
 import json
 import time
 from typing import List, Dict, Any, Optional
-from config_agentrouter import get_agentrouter_config, get_headers
+from config_user import get_api_config
 
 
 class LLMClient:
     def __init__(self):
-        config = get_agentrouter_config()
+        config = get_api_config()
         self.base_url = config['base_url']
         self.model = config['model']
         self.timeout = config['timeout']
@@ -39,7 +39,14 @@ class LLMClient:
         
         for attempt in range(self.max_retries):
             try:
-                headers = get_headers()
+                # Don't send Authorization header for local AgentRouterAnywhere
+                headers = {
+                    "Content-Type": "application/json"
+                }
+                
+                # Only add Authorization for non-local endpoints
+                if not self.base_url.startswith("http://127.0.0.1:"):
+                    headers["Authorization"] = f"Bearer {self.api_key}"
                 
                 response = requests.post(
                     f"{self.base_url}/chat/completions",
